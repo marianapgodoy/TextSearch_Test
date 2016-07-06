@@ -3,12 +3,10 @@ package test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import base.TestSuiteSetup;
 import pages.HomePage;
 import pages.SearchResultsPage;
 
-public class SearchTextTest extends TestSuiteSetup{	
+public class SearchTextTest extends base.TestSuiteSetup{	
 	
 	HomePage homePage;
 	SearchResultsPage searchResultPage;
